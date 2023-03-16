@@ -8,7 +8,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const clean = require("gulp-clean");
 
 function scripts() {
-  return src(["node_modules/swiper/swiper-bundle.js", "src/js/main.js"])
+  return src(["src/js/main.js"])
     .pipe(concat("main.min.js"))
     .pipe(uglify())
     .pipe(dest("src/js"))
@@ -26,7 +26,7 @@ function styles() {
 
 // смотритель
 function watching() {
-  watch(["src/sass/*.scss"], styles);
+  watch(["src/sass/**/*.scss"], styles);
   watch(["src/js/main.js"], scripts);
   watch(["src/*.html"]).on("change", browserSync.reload);
 }

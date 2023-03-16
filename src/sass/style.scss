@@ -1,14 +1,11 @@
-@import "../../node_modules/swiper/swiper-bundle";
+@import "base/variables";
+@import "base/mixins";
+@import "base/fonts";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/advantages";
 
-.main {
-  padding: 0 auto;
-}
-
-h1 {
-  font-size: 50px;
-  color: green;
-}
-
-.main {
-  margin-top: 60px;
+.container {
+  max-width: 950px;
+  margin: 0 auto;
 }

@@ -1,0 +1,89 @@
+.title {
+  font-family: "Nexa Script", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.promo {
+  min-height: 650px;
+  background: url(../img/header/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__header {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+  }
+  &__subheader {
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  &__icons {
+    max-width: 424px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  &__icon {
+    width: 121px;
+    font-size: 14px;
+    margin-bottom: 65px;
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+  &__link {
+    margin-top: 8px;
+    a {
+      text-decoration: underline;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 100px;
+  margin-bottom: 91px;
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__text {
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #fff;
+    span {
+      color: #fff;
+      font-family: "Nexa Script", sans-serif;
+      font-size: 18px;
+    }
+  }
+  &__phone {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  &__logo {
+    width: 250px;
+    img {
+      width: 100%;
+    }
+  }
+}

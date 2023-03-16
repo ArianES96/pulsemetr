@@ -1,0 +1,29 @@
+.advantages {
+  max-height: 473px;
+  background: #f6f6f6;
+  padding: 73px 0px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__content {
+    width: 269px;
+    text-align: center;
+  }
+  &__text {
+    font-weight: bold;
+  }
+  &__logo {
+    margin-bottom: 35px;
+  }
+  &__subtext {
+    a {
+      color: red;
+    }
+  }
+}
