@@ -1,0 +1,21 @@
+.consultation {
+  min-height: 680px;
+  background: url(../img/consultation/bq_consultation.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  &__about {
+    padding: 111px 103px;
+  }
+  &__title {
+    width: 799px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+  &__descr {
+    width: 426px;
+    margin-bottom: 36px;
+  }
+}

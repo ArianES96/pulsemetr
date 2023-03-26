@@ -1,0 +1,61 @@
+@media (max-width: 1199.98px) {
+  .promo {
+    &__wrapper {
+      padding-right: 5%;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    padding: 21px 50px;
+    justify-content: space-around;
+    &__logo {
+      width: 222px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .promo {
+    &__icon {
+      img {
+        width: 40px;
+      }
+    }
+  }
+  .button {
+    &--promo {
+      width: 268px;
+      height: 41px;
+      font-size: 15px;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      justify-content: space-around;
+    }
+    &__content {
+      width: 210px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    &__text {
+      font-size: 10px;
+      line-height: 15px;
+      display: none;
+    }
+    &__phone {
+      font-size: 10px;
+    }
+    button {
+      min-width: 50px;
+      max-height: 32px;
+      font-size: 9px;
+    }
+  }
+}

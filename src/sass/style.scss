@@ -4,6 +4,13 @@
 @import "blocks/promo";
 @import "blocks/buttons";
 @import "blocks/advantages";
+@import "base/variables";
+@import "base/media";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carusel";
+@import "blocks/catalog";
+@import "blocks/footer";
 
 .container {
   max-width: 950px;
