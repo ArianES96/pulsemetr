@@ -20,6 +20,12 @@
   }
   &__logo {
     margin-bottom: 35px;
+    &--animated {
+      animation-name: heartbbeat;
+      animation-duration: 1.8s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+    }
   }
   &__subtext {
     a {
